@@ -1,7 +1,6 @@
 https://nbviewer.jupyter.org/
 
-def qs(a, left, right):
-        
+def qs(a, left, right):        
     if left >= right:
         return a
     
@@ -43,7 +42,6 @@ def sift(data, low, high):
         else:
             break
     data[i] = tmp   # 将替换的父节点值赋给最终的父节点
-
 
 def heap_sort(data):
     n = len(data)
